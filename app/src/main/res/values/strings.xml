@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fierros Cocharcas</string>
+
+    <!-- Tabs propias -->
+    <string name="tab_catalog">Catálogo</string>
+    <string name="tab_cart">Carrito</string>
+    <string name="tab_profile">Perfil</string>
+
+    <!-- Aliases requeridos por el graph del template -->
+    <string name="title_home">@string/tab_catalog</string>
+    <string name="title_dashboard">@string/tab_cart</string>
+    <string name="title_notifications">@string/tab_profile</string>
+</resources>

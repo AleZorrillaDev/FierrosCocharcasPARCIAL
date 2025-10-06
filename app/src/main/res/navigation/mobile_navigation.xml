@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_catalog">
+
+    <fragment
+        android:id="@+id/nav_catalog"
+        android:name="com.example.fierroscocharcas.ui.home.CatalogFragment"
+        android:label="@string/tab_catalog" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.fierroscocharcas.ui.home.CartFragment"
+        android:label="@string/tab_cart" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.fierroscocharcas.ui.home.ProfileFragment"
+        android:label="@string/tab_profile" />
+</navigation>

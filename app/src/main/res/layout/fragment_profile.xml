@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOpenProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_profile"
+        android:textAllCaps="false"
+        android:textColor="@color/colorOnPrimary"
+        app:backgroundTint="@color/colorPrimary"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/ic_profile"
+        app:iconTint="@color/colorOnPrimary"/>
+</LinearLayout>
